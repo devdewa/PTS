@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------
+[Adityawarman Dewa Putra] [SMKN 1 JAKARTA] 
+
+Copyright 2021 By: Dewa Programming
+
+Project		:	PTS Ganjil
+Dibuat	    :	19/09/2021
+Instagram   :   @741_dewa -- @all_dewa_works
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    Free Source, Anggap aja amal jariyah
+-------------------------------------------------------------------*/
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #455a64;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0B549F;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.d-bg-gradient {
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+
+#profile-img {
+    height: 400px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #bg-profile {
+        background-image: none !important;
+    }
+    #profile-img {
+        height: unset !important;
+    }
+    .modal-box {
+        margin-bottom: 8rem;
+        width: unset !important;
+        border-radius: unset !important;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .modal-box {
+        margin-bottom: 5rem;
+        width: 85% !important;
+    }
+}
